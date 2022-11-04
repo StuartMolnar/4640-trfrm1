@@ -16,7 +16,7 @@ Create a DigitalOcean API Token and keep track of its authentication string.
 
 <h4>Next</h4>
 
-Open your .env file at ```~/<gitrepo>``` and put:
+Open your ```.env``` file at ```~/<gitrepo>``` and put:
 ```
 export TF_VAR_do_token=<your token authentication string>
 ```
@@ -31,7 +31,7 @@ In command line at ```~/<gitrepo>``` enter: ```terraform init```
 
 <h4>Next</h4>
 
-Open your main.tf file at ```~/<gitrepo>``` and put:
+Open your ```main.tf``` file at ```~/<gitrepo>``` and put:
 ```
 terraform {
   required_providers {
