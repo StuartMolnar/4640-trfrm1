@@ -9,24 +9,24 @@ Initialize a git repository in "~/" with the following files:
 - main.tf
 - .env
 
-Next
-Create a DigitalOcean API Token and keep track of its authentication string.\n
+Next<br/>
+Create a DigitalOcean API Token and keep track of its authentication string.<br/>
 
-Next
-Open your .env file at "~/<gitrepo>" and put: 
+Next<br/>
+Open your .env file at "~/<gitrepo>" and put: <br/>
 ```
 export TF_VAR_do_token=<your token authentication string>
 ```
 
-Next
-In the command line at ```"~/<gitrepo>"``` enter:\n
-source .env
+Next<br/>
+In the command line at ```"~/<gitrepo>"``` enter:<br/>
+```source .env```
 
-Next
-In command line at ```"~/<gitrepo>"``` enter:\n
-terraform init
+Next<br/>
+In command line at ```"~/<gitrepo>"``` enter:\n<br/>
+```terraform init```
 
-Next
+Next<br/>
 Open your main.tf file at ```"~/<gitrepo>"``` and put:
 ```
 terraform {
@@ -91,9 +91,9 @@ output "server_ip" {
     value = digitalocean_droplet.web.ipv4_address
 }
 ```
-Next
+Next<br/>
 In ```"~/<gitrepo>"``` enter:\n
-terraform apply
+```terraform apply```
 
 
 
