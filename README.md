@@ -3,6 +3,7 @@ Assumptions:
 - SSH key named "my_key" attached to DigitalOcean account (or edit line 21 in main.tf)
 - project named 4640_labs exists
 
+<h4>First</h4>
 
 Initialize a git repository in "~/" with the following files:
 - .gitignore
