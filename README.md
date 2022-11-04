@@ -5,7 +5,7 @@
 
 <h4>First</h4>
 
-Initialize a git repository in "~/" with the following files:
+Initialize a git repository in ```~/``` with the following files:
 - .gitignore
 - main.tf
 - .env
