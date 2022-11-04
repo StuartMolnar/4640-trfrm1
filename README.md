@@ -3,29 +3,31 @@ Assumptions:
 - SSH key named "my_key" attached to DigitalOcean account
 - project named 4640_labs exists
 
-1.
+
 Initialize a git repository in "~/" with the following files:
 - .gitignore
 - main.tf
 - .env
 
-2.
-Create a DigitalOcean API Token and keep track of its authentication string.
+Next
+Create a DigitalOcean API Token and keep track of its authentication string.\n
 
-3.
-Open your .env file at "~/<gitrepo>" and put:
+Next
+Open your .env file at "~/<gitrepo>" and put: 
+```
 export TF_VAR_do_token=<your token authentication string>
+```
 
-4.
-In the command line at "~/<gitrepo>" enter:
+Next
+In the command line at ```"~/<gitrepo>"``` enter:\n
 source .env
 
-5.
-In command line at "~/<gitrepo>" enter:
+Next
+In command line at ```"~/<gitrepo>"``` enter:\n
 terraform init
 
-6.
-Open your main.tf file at "~/<gitrepo>" and put:
+Next
+Open your main.tf file at ```"~/<gitrepo>"``` and put:
 ```
 terraform {
   required_providers {
@@ -89,9 +91,8 @@ output "server_ip" {
     value = digitalocean_droplet.web.ipv4_address
 }
 ```
-
-7.
-In "~/<gitrepo>" enter:
+Next
+In ```"~/<gitrepo>"``` enter:\n
 terraform apply
 
 
