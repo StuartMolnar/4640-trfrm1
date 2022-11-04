@@ -12,7 +12,7 @@ Initialize a git repository in ```~/``` with the following files:
 
 <h4>Next</h4>
 
-Create a DigitalOcean API Token and keep track of its authentication string.
+Create a DigitalOcean API Token and keep track of its authentication string for the next task.
 
 <h4>Next</h4>
 
